@@ -54,5 +54,5 @@ The surprise library is a well regarded system to build a user based recommender
 
 It's difficult to effectively visualize such a high number of clusters but LDA lends itself well to visualizing clusters of text data. LDA is unsupervised learning that divides a corpus into topics using the supplied documents by mathematically looking for related terms. LDA is also interactive and an incredibly helpful tool for exploring your text data. This picture, however, is not interactive.
 
-<img src = "Images/lda.png" width="500">
+<img src = "Images/lda.png" width="900">
 
