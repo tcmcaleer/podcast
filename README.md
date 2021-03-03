@@ -50,7 +50,7 @@ I am very happy with the performance of the Random Forest model. The weakest pre
 
 The surprise library is a well regarded system to build a user based recommender system. It requires three inputs: User IDs, Item IDs, and ratings. The dataset does not include User IDs. I could create a content base recommender system with the data, but where's the fun in that? Instead, let's use K Means clustering. The idea is to use the processed text information I've created and use that to simulate User IDs based on writing styles. I decided to create 500 clusters to simulate 500 users leaving about 200 reviews on average. Might not be incredibly realistic, but as an exercise in clustering, it is enough for a creative solution. I take the predicted clusters and create user data, which I put into the surprise library. What I've created is now an effective user based recommender system. It
 
-<img src = "Images/reco.png" width="500">
+<img src = "Images/reco.png" width="900">
 
 It's difficult to effectively visualize such a high number of clusters but LDA lends itself well to visualizing clusters of text data. LDA is unsupervised learning that divides a corpus into topics using the supplied documents by mathematically looking for related terms. LDA is also interactive and an incredibly helpful tool for exploring your text data. This picture, however, is not interactive.
 
