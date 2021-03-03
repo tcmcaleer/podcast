@@ -21,7 +21,7 @@ I tokenize, remove stop words, lemmatize and incorporate the texts of the docume
 The confusion matrix is interesting. The worst performing rating is 4. Not surprising, as rating a product a 4 is close to a 5 rating in a practical sense, and with a dataset so strongly imbalanced toward a 5 it makes sense to predict a 5 when it is close. In fact, the whole model is generally either predicting class 5 or a higher class than actual. Considering the imbalanced dataset, this makes sense. If you consider ratings that were misclassified within a margin of error of 1, the confusion matrix is showing at worst a 60% success rate per rating and 70% for the next score. I'm satisfied with these results.
 
 <img src = "Images/predict1_4.png" width="500">
-<img src = "Images/predict5.png" width="500">
+<img src = "Images/predict5.png" width="200">
 
 Here I've plotted each rating by counts of its incorrectly predicted ratings. It is clear that a huge number of misclassifications are within 1 point. In fact, when I calculate the overall average error of predicted vs actual ratings, the average error is 1.57. This is a good result, but one that could be improved.
 
